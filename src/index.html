@@ -3,10 +3,180 @@
 <head>
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Syayid Al Aziz | Personal Portofolio</title>
    <link href="../dist/output.css" rel="stylesheet" />
-   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+   <link rel="icon" href="../public/img/favicon.png" type="image/x-icon">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <style>
+      body {
+         font-family: 'Inter', sans-serif;
+      }
+   </style>
 </head>
-<body>
-   <p class="underline font-bold">Hallo</p>
+<body class="bg-gray-50">
+   <div class="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+   <div class="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+   <!-- START HEADER -->
+   <header class="flex justify-center m-8">
+      <nav class="w-fit py-5 px-7 top-7 fixed z-50 rounded-full border bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-xl">
+         <ul class="flex items-center gap-10 font-medium text-gray-500 text-sm !leading-[1.5]">
+            <li class="hover:text-black hover:scale-110 transition"><a href="#home">Home</a></li>
+            <li class="hover:text-black hover:scale-110 transition"><a href="#about">About</a></li>
+            <li class="hover:text-black hover:scale-110 transition"><a href="#projects">Projects</a></li>
+            <li class="hover:text-black hover:scale-110 transition"><a href="#skills">Skills</a></li>
+            <li class="hover:text-black hover:scale-110 transition"><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+   <!-- END OF HEADER -->
+   <!-- START MAIN -->
+   <main class="flex flex-col items-center px-4 gap-48 m-40">
+      <!-- START HOME -->
+      <section id="home" class="flex flex-col item-center max-w-[50rem]">
+         <div class="flex justify-center flex-col items-center text-center">
+            <img src="../public/img/formal.png" alt="Personal Image" class="rounded-full border-[0.35rem] border-white w-36 h-36">
+            <h1 class="mb-5 mt-3 px-4 text-2xl !leading-[1.5] sm:text-4xl font-semibold">Syayid Al Aziz</h1>
+            <h4 class="mb-10 px-4 font-medium !leading-[1.5] text-xl">
+               2 years of experience in fullstack development, using Laravel and Codeigniter for developing a website and web applications.
+            </h4>
+         </div>
+         <div class="flex flex-col justify-center gap-10">
+            <div class="flex flex-wrap justify-center item-center gap-6 text-lg font-medium !leading-[1.5]">
+               <a href="#contact" class="px-7 py-3 rounded-full outline-none bg-gray-900 text-white hover:scale-110 transition">Contact me here 👉</a>
+               <a href="https://drive.google.com/file/d/1LZGqirs0mXCHsmTqCMRCjKl71hroVTjj/view?usp=sharing" target="_blank" class="px-7 py-3 rounded-full outline-none bg-white bg-opacity-80 backdrop-blur-sm text-gray-900 hover:scale-110 transition">Download CV 🙇</a>
+            </div>
+            <div class="flex justify-center items-center gap-2">
+               <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm hover:scale-110 transition">
+                  <a href="https://www.linkedin.com/in/syayidalaziz/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+               </div>
+               <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm hover:scale-110 transition">
+                  <a href="mailto:syayidalaziz15@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a>
+               </div>
+               <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm hover:scale-110 transition">
+                  <a href="https://www.instagram.com/syayidalaziz_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+               </div>
+               <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm hover:scale-110 transition">
+                  <a href="https://github.com/syayidalaziz10/" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END OF HOME -->
+      <!-- START ABOUT -->
+      <section id="about" class="flex flex-col item-center max-w-[50rem]">
+         <div class="flex flex-col sitems-center gap-8 text-center">
+            <h1 class="px-4 text-2xl !leading-[1.5] sm:text-4xl font-medium">🙋‍♂️ About Me</h1>
+            <p class="!leading-[1.5] text-base">
+               I am a student currently taking semester 5 with a focus on web front-end, UI/UX, machine learning, and data science. I have a deep passion for creating attractive and functional user interfaces and am interested in applying machine learning technologies to solve complex problems.
+            </p>
+         </div>
+      </section>
+      <!-- END OF ABOUT -->
+      <!-- START PROJECTS -->
+      <section id="projects" class="flex flex-col item-center p-4">
+         <div class="flex flex-col items-center gap-8 text-center p-2">
+            <h1 class="px-4 text-2xl !leading-[1.5] sm:text-4xl font-medium">My Projects 🚀</h1>
+            <div class="w-full flex flex-wrap justify-center items-center gap-10">
+               <div class="flex flex-col gap-4 w-[40rem] h-full p-4 bg-white rounded-xl hover:scale-105 transition">
+                  <img src="../public/img/projects/berita-ringkas.png" alt="" class="w-full">
+                  <div class="flex flex-col gap-3 text-left pl-4">
+                     <h3 class="font-semibold text-2xl">Berita Ringkas</h3>
+                     <p>Berita Ringkas merupakan aplikasi yang digunakan untuk membuat ringkasan dari suatu berita, bukan hanya ringkasan aplikasi ini dapat membuat kata kunci dari berita tersebut.</p>
+                     <ul class="flex flex-start flex-wrap gap-2">
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Python</li>
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Streamlit</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 w-[40rem] h-full p-4 bg-white rounded-xl hover:scale-105 transition">
+                  <img src="../public/img/projects/berita-ringkas.png" alt="" class="w-full">
+                  <div class="flex flex-col gap-3 text-left pl-4">
+                     <h3 class="font-semibold text-2xl">Berita Ringkas</h3>
+                     <p>Berita Ringkas merupakan aplikasi yang digunakan untuk membuat ringkasan dari suatu berita, bukan hanya ringkasan aplikasi ini dapat membuat kata kunci dari berita tersebut.</p>
+                     <ul class="flex flex-start flex-wrap gap-2">
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Python</li>
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Streamlit</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 w-[40rem] h-full p-4 bg-white rounded-xl hover:scale-105 transition">
+                  <img src="../public/img/projects/berita-ringkas.png" alt="" class="w-full">
+                  <div class="flex flex-col gap-3 text-left pl-4">
+                     <h3 class="font-semibold text-2xl">Berita Ringkas</h3>
+                     <p>Berita Ringkas merupakan aplikasi yang digunakan untuk membuat ringkasan dari suatu berita, bukan hanya ringkasan aplikasi ini dapat membuat kata kunci dari berita tersebut.</p>
+                     <ul class="flex flex-start flex-wrap gap-2">
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Python</li>
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Streamlit</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 w-[40rem] h-full p-4 bg-white rounded-xl hover:scale-105 transition">
+                  <img src="../public/img/projects/berita-ringkas.png" alt="" class="w-full">
+                  <div class="flex flex-col gap-3 text-left pl-4">
+                     <h3 class="font-semibold text-2xl">Berita Ringkas</h3>
+                     <p>Berita Ringkas merupakan aplikasi yang digunakan untuk membuat ringkasan dari suatu berita, bukan hanya ringkasan aplikasi ini dapat membuat kata kunci dari berita tersebut.</p>
+                     <ul class="flex flex-start flex-wrap gap-2">
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Python</li>
+                        <li class="bg-black/[0.7] px-3 py-1 text-center text-xs tracking-wider uppercase text-white rounded-full">Streamlit</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END OF PROJECTS -->
+      <!-- START SKILLS -->
+      <section id="skills" class="flex flex-col item-center">
+         <div class="flex flex-col items-center gap-8 text-center">
+            <h1 class="px-4 text-2xl !leading-[1.5] sm:text-4xl font-medium">My Skills</h1>
+            <div class="flex flex-wrap justify-center items-center gap-2 px-20">
+               <div class="flex justify-center items-center w-36 h-36 transition">
+                  <img src="../public/img/logo.png" alt="" class="w-24 h-24 grayscale hover:grayscale-0">
+               </div>
+               <div class="flex justify-center items-center w-36 h-36 transition">
+                  <img src="../public/img/logo.png" alt="" class="w-24 h-24 grayscale hover:grayscale-0">
+               </div>
+               <div class="flex justify-center items-center w-36 h-36 transition">
+                  <img src="../public/img/logo.png" alt="" class="w-24 h-24 grayscale hover:grayscale-0">
+               </div>
+               <div class="flex justify-center items-center w-36 h-36 transition">
+                  <img src="../public/img/logo.png" alt="" class="w-24 h-24 grayscale hover:grayscale-0">
+               </div>
+               <div class="flex justify-center items-center w-36 h-36 transition">
+                  <img src="../public/img/logo.png" alt="" class="w-24 h-24 grayscale hover:grayscale-0">
+               </div>
+               <div class="flex justify-center items-center w-36 h-36 transition">
+                  <img src="../public/img/logo.png" alt="" class="w-24 h-24 grayscale hover:grayscale-0">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END OF SKILLS -->
+      <!-- START CONTACT -->
+      <section id="contact" class="flex flex-col item-center max-w-[50rem]">
+         <div class="w-full flex flex-col items-center gap-8 text-center">
+            <h1 class="px-4 text-2xl !leading-[1.5] sm:text-4xl font-medium">Contact Me</h1>
+            <p class="text-grey-700 !leading-[1.5]">
+               Please contact me directly at <a href="mailto:syayidalaziz15@gmail.com" class="underline">syayidalaziz@gmail.com</a> or through this form.
+            </p>
+            <form action="" class="w-full flex flex-col gap-2">
+               <input type="email" name="email" class="w-full h-14 px-4 rounded-lg border border-grey-200" placeholder="Your email" required>
+               <textarea name="message" class="h-52 my-3 rounded-lg p-4 border border-grey-200 resize-none" placeholder="Your message" required maxlength="5000"></textarea>
+               <button name="submit" type="submit" class="w-fit px-7 py-3 rounded-full outline-none bg-gray-900 text-white hover:scale-110 transition">Send email</button>
+            </form>
+         </div>
+      </section>
+      <!-- END OF CONTACT -->
+   </main>
+   <!-- END OF MAIN -->
+   <!-- START FOOTER -->
+   <footer class="text-center mb-20 text-xs !leading-[1.5] text-gray-500">
+      ©2023. Syayid Al Aziz. All Right Reserved
+   </footer>
+   <!-- END OF FOOTER -->
 </body>
 </html>
